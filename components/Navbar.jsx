@@ -60,15 +60,15 @@ const Navbar = () => {
       </div>
       {/* Mobile Navbar */}
       <div className="flex justify-between px-[1rem] md:hidden w-[100vw] h-[11vh] items-center">
-        <Hamburger toggled={isOpen} toggle={setOpen} size={25} />
+        <Hamburger toggled={isOpen} toggle={setOpen} size={20} />
         <Image
           src="/papel-logo-black.png"
           alt="logo"
-          width={160}
+          width={140}
           height={80}
-          className="h-[45px]"
+          className="h-[36px]"
         />
-        <FaCartShopping size={25} className="" />
+        <FaCartShopping size={24} className="" />
       </div>
     </>
   );
