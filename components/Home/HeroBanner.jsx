@@ -3,7 +3,7 @@ import React from "react";
 
 const HeroBanner = () => {
   return (
-    <div className="w-[100vw] h-[89vh] bg-[#fff] flex justify-center px-[8rem] mx-auto md:max-xl:px-[6rem]">
+    <div className="w-[100vw] h-[89vh] bg-[#fff] flex justify-center px-[4rem] mx-auto md:max-xl:px-[6rem] ml-[2rem]">
       <Image
         src="/wave-design-1.png"
         alt="wave"
@@ -11,7 +11,7 @@ const HeroBanner = () => {
         height={100}
         className="absolute top-[21%] left-[58%] md:max-xl:left-[48%] md:max-xl:top-[17%]"
       />
-      <div className="flex flex-col mt-[4.5rem] md:max-xl:mt-[3.4rem]">
+      <div className="flex flex-col mt-[5.5rem] md:max-xl:mt-[3.4rem]">
         <h1 className="text-[3.2rem] font-bold md:max-xl:text-[2rem]">
           Imagine a world where hydration is the last thing that causes carbon
           emissions...
@@ -35,11 +35,11 @@ const HeroBanner = () => {
       </div>
       <div className="mt-[1rem]">
         <Image
-          src="/papel-product-homepage.png"
+          src="/character-with-product-2.png"
           alt="product-homepage"
-          width={1400}
+          width={1550}
           height={1300}
-          className="md:max-xl:w-[1200px]"
+          className="md:max-xl:w-[1200px] relative z-2"
         />
       </div>
     </div>
