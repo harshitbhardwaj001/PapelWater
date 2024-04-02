@@ -2,7 +2,7 @@ import React from "react";
 
 const Slogan = () => {
   return (
-    <div className="w-[100vw] h-[120vh] bg-[#97D4E3] flex gap-[8rem] px-[8rem] pt-[7rem] justify-center">
+    <div className="w-[100vw] h-[120vh] bg-[#97D4E3] flex gap-[8rem] px-[8rem] pt-[12rem] justify-center">
       <div className="flex flex-col gap-[1rem]">
         <h1 className="text-[70px] font-extrabold leading-[5rem]">
           DRINK <br />

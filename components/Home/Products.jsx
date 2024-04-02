@@ -107,6 +107,9 @@ const Products = () => {
           </div>
         </div>
       </div>
+      <button className="bg-[#1B3C87] w-[16rem] py-[0.3rem] text-white text-[26px] font-extrabold">
+        More Products
+      </button>
     </div>
   );
 };
