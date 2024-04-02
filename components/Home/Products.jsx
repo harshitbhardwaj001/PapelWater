@@ -9,7 +9,7 @@ const Products = () => {
       <p className="text-[22px] text-[#1B3C87] font-medium mt-[-3rem] tracking-wide">
         Here you can see all our products
       </p>
-      <div className="flex gap-12">
+      <div className="flex gap-12 xs:max-md:flex-col">
         <div className="video-card">
           <div className="flex flex-col gap-5">
             <div className="w-[350px] h-[360px] bg-[#fff] shadow-xl rounded-[3rem]">

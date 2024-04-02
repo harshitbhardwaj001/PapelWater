@@ -50,9 +50,9 @@ const Footer = () => {
         <h1>TERMS OF USE</h1>
         <h1>CONTACT US</h1>
       </div>
-      <div className="flex flex-col gap-[0.7rem] mt-[5.4rem]">
+      <div className="flex flex-col gap-[0.7rem] mt-[5.4rem] xs:max-md:hidden">
         <h1 className="font-medium text-[28px] text-white">Payment</h1>
-        <h1 className="font-medium text-[22px] text-[#bebebe] leading-[1.5rem]">
+        <h1 className="font-medium text-[22px] text-[#bebebe] leading-[1.5rem] ">
           Secured payments <br /> powered by
         </h1>
         <div className="w-[17vw] h-[21vh] bg-[#d6d6d6] mt-[0.8rem]"></div>

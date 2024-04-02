@@ -13,7 +13,7 @@ const Videos = () => {
             width="350"
             height="550"
             src="https://www.youtube.com/embed/9Q9xJ3Hl1wA"
-            className="rounded-[3rem] shadow-xl"
+            className="rounded-[3rem] shadow-xl xs:max-md:w-[200px] xs:max-md:h-[300px]"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           ></iframe>
@@ -23,12 +23,12 @@ const Videos = () => {
             width="350"
             height="550"
             src="https://www.youtube.com/embed/9Q9xJ3Hl1wA"
-            className="rounded-[3rem] shadow-xl"
+            className="rounded-[3rem] shadow-xl xs:max-md:w-[200px] xs:max-md:h-[300px]"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           ></iframe>
         </div>
-        <div className="video-card">
+        <div className="video-card xs:max-md:hidden">
           <iframe
             width="350"
             height="550"

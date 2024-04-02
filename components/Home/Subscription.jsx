@@ -21,7 +21,7 @@ const Subscription = () => {
         <input
           type="email"
           placeholder="Email Id"
-          className="w-[43rem] h-[3rem] px-[1rem] py-[1rem] text-[22px] font-medium"
+          className="w-[43rem] h-[3rem] px-[1rem] py-[1rem] text-[22px] font-medium xs:max-md:w-[20vw]"
         />
         <button className="bg-[#1B3C87] w-[10rem] py-[0.3rem] text-white text-[27px] font-extrabold">
           SIGN UP
