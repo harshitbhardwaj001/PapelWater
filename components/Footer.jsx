@@ -1,6 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import { FaInstagram, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaFacebook,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa6";
 
 const Footer = () => {
   return (
