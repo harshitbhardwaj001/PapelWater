@@ -43,7 +43,7 @@ const HeroBanner = () => {
           alt="product-homepage"
           width={1550}
           height={1300}
-          className="md:max-xl:w-[1200px] relative z-2 xs:max-md:w-[320px]"
+          className="md:max-xl:w-[1200px] relative z-2 xs:max-md:w-[320px] xs:max-md:absolute xs:max-md:left-[50%] xs:max-md:ml-[-160px] xs:max-md:bottom-0"
         />
       </div>
     </div>

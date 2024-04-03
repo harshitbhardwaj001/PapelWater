@@ -2,9 +2,11 @@ import React from "react";
 
 const Videos = () => {
   return (
-    <div className="w-[100vw] h-[120vh] flex flex-col pt-[3rem] items-center gap-10">
-      <h1 className="text-[60px] font-extrabold">VIDEOS</h1>
-      <p className="text-[22px] text-[#1B3C87] font-medium mt-[-3.7rem]">
+    <div className="w-[100vw] h-[120vh] flex flex-col pt-[7vh] items-center gap-10 xs:max-md:pt-[10vh]">
+      <h1 className="text-[60px] font-extrabold xs:max-md:text-[40px]">
+        VIDEOS
+      </h1>
+      <p className="text-[22px] text-[#1B3C87] font-medium mt-[-3.7rem] xs:max-md:text-[13px] xs:max-md:mt-[-3rem]">
         Here you can see small videos we made with influencers
       </p>
       <div className="flex gap-12">
