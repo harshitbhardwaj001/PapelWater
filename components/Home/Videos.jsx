@@ -12,19 +12,19 @@ const Videos = () => {
       <div className="flex gap-12 xs:max-md:gap-5">
         <div className="video-card">
           <iframe
-            width="350"
-            height="550"
-            src="https://www.youtube.com/embed/9Q9xJ3Hl1wA"
-            className="rounded-[3rem] shadow-xl xs:max-md:w-[75vw] xs:max-md:h-[70vh]"
-            title="YouTube video player"
+            width="305"
+            height="542"
+            src="/video_1.mp4"
+            className="rounded-[3rem] shadow-xl xs:max-md:w-[65vw] xs:max-md:h-[71vh]"
+            title=""
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           ></iframe>
         </div>
         <div className="video-card xs:max-md:hidden">
           <iframe
-            width="350"
-            height="550"
-            src="https://www.youtube.com/embed/9Q9xJ3Hl1wA"
+            width="305"
+            height="542"
+            src="/video_2.mp4"
             className="rounded-[3rem] shadow-xl xs:max-md:w-[200px] xs:max-md:h-[300px]"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -32,9 +32,9 @@ const Videos = () => {
         </div>
         <div className="video-card xs:max-md:hidden">
           <iframe
-            width="350"
-            height="550"
-            src="https://www.youtube.com/embed/9Q9xJ3Hl1wA"
+            width="305"
+            height="542"
+            src="/video_3.mp4"
             className="rounded-[3rem] shadow-xl"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

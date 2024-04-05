@@ -1,9 +1,18 @@
+import Image from "next/image";
 import React from "react";
 
 const About = () => {
   return (
     <div className="w-[100vw] h-[130vh] bg-[#97D4E3] flex gap-[8rem] px-[8rem] pt-[12rem] justify-center xs:max-md:px-[2rem] xs:max-md:pt-[7vh] xs:max-md:flex-col xs:max-md:gap-[1.5rem] xs:max-md:items-center xs:max-md:justify-start xs:max-md:h-[112vh]">
-      <div className="w-[35vw] h-[95vh] rounded-[3rem] shadow-lg bg-[#fff] xs:max-md:hidden"></div>
+      <div className="w-[35vw] h-[75vh] rounded-[3rem] shadow-lg bg-[#fff] xs:max-md:hidden overflow-hidden">
+        <Image
+          src="/about.jpg"
+          alt="about"
+          width={500}
+          height={500}
+          className="w-[55vw] h-[75vh] xs:max-md:w-[75vw] xs:max-md:h-[40vh]"
+        />
+      </div>
       <div className="flex flex-col gap-[1rem]">
         <h1 className="text-[70px] font-extrabold leading-[5rem] xs:max-md:text-[30px] xs:max-md:text-center">
           ABOUT US
@@ -33,7 +42,15 @@ const About = () => {
           Drink The Change
         </h1>
       </div>
-      <div className="w-[35vw] h-[95vh] rounded-[3rem] shadow-lg bg-[#fff] md:hidden xs:max-md:w-[75vw] xs:max-md:h-[40vh] xs:max-md:rounded-none"></div>
+      <div className="w-[35vw] h-[95vh] rounded-[3rem] shadow-lg bg-[#fff] md:hidden xs:max-md:w-[75vw] xs:max-md:h-[40vh] xs:max-md:rounded-none">
+        <Image
+          src="/about.jpg"
+          alt="about"
+          width={500}
+          height={500}
+          className="w-[35vw] h-[95vh] xs:max-md:w-[75vw] xs:max-md:h-[40vh]"
+        />
+      </div>
     </div>
   );
 };

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Slogan = () => {
@@ -33,7 +34,15 @@ const Slogan = () => {
           Drink The Change
         </h1>
       </div>
-      <div className="w-[35vw] h-[95vh] rounded-[3rem] shadow-lg bg-[#fff] xs:max-md:w-[75vw] xs:max-md:h-[40vh] xs:max-md:rounded-none"></div>
+      <div className="w-[35vw] h-[95vh] rounded-[3rem] shadow-lg bg-[#fff] xs:max-md:w-[75vw] xs:max-md:h-[40vh] xs:max-md:rounded-none">
+        <Image
+          src="/slogan.jpg"
+          alt="slogan"
+          width={500}
+          height={500}
+          className="w-[35vw] h-[95vh] xs:max-md:w-[75vw] xs:max-md:h-[40vh] rounded-[3rem] shadow-lg xs:max-md:rounded-none"
+        />
+      </div>
     </div>
   );
 };
