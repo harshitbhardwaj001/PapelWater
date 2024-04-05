@@ -15,7 +15,7 @@ const Videos = () => {
             width="305"
             height="542"
             src="/video_1.mp4"
-            className="rounded-[3rem] shadow-xl xs:max-md:w-[65vw] xs:max-md:h-[71vh]"
+            className="rounded-[3rem] shadow-xl xs:max-md:w-[249px] xs:max-md:h-[442px]"
             title=""
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           ></iframe>
