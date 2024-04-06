@@ -10,7 +10,7 @@ const About = () => {
           alt="about"
           width={500}
           height={500}
-          className="w-[55vw] h-[75vh] xs:max-md:w-[75vw] xs:max-md:h-[40vh]"
+          className="w-[55vw] h-[76vh] xs:max-md:w-[75vw] xs:max-md:h-[40vh]"
         />
       </div>
       <div className="flex flex-col gap-[1rem]">
