@@ -32,11 +32,11 @@ const Products = () => {
               <div className="flex flex-col justify-center">
                 <h1 className="xs:max-md:text-[11px]">Add to cart</h1>
                 <div className="flex gap-4 xs:max-md:gap-2">
-                  <div className="w-[30px] h-[30px] bg-[#fff] shadow-lg rounded-md text-center text-[22px]">
+                  <div className="w-[30px] h-[30px] bg-[#fff] shadow-lg rounded-[8px] text-center text-[22px]">
                     -
                   </div>
                   <div className="text-center text-[22px]">1</div>
-                  <div className="w-[30px] h-[30px] bg-[#fff] shadow-lg rounded-md text-center text-[22px]">
+                  <div className="w-[30px] h-[30px] bg-[#fff] shadow-lg rounded-[8px] text-center text-[22px]">
                     +
                   </div>
                 </div>
@@ -64,11 +64,11 @@ const Products = () => {
               <div className="flex flex-col justify-center">
                 <h1 className="xs:max-md:text-[11px]">Add to cart</h1>
                 <div className="flex gap-4 xs:max-md:gap-2">
-                  <div className="w-[30px] h-[30px] bg-[#fff] shadow-lg rounded-md text-center text-[22px]">
+                  <div className="w-[30px] h-[30px] bg-[#fff] shadow-lg rounded-[8px] text-center text-[22px]">
                     -
                   </div>
                   <div className="text-center text-[22px]">1</div>
-                  <div className="w-[30px] h-[30px] bg-[#fff] shadow-lg rounded-md text-center text-[22px]">
+                  <div className="w-[30px] h-[30px] bg-[#fff] shadow-lg rounded-[8px] text-center text-[22px]">
                     +
                   </div>
                 </div>
@@ -96,11 +96,11 @@ const Products = () => {
               <div className="flex flex-col justify-center">
                 <h1 className="xs:max-md:text-[11px]">Add to cart</h1>
                 <div className="flex gap-4 xs:max-md:gap-2">
-                  <div className="w-[30px] h-[30px] bg-[#fff] shadow-lg rounded-md text-center text-[22px]">
+                  <div className="w-[30px] h-[30px] bg-[#fff] shadow-lg rounded-[8px] text-center text-[22px]">
                     -
                   </div>
                   <div className="text-center text-[22px]">1</div>
-                  <div className="w-[30px] h-[30px] bg-[#fff] shadow-lg rounded-md text-center text-[22px]">
+                  <div className="w-[30px] h-[30px] bg-[#fff] shadow-lg rounded-[8px] text-center text-[22px]">
                     +
                   </div>
                 </div>
