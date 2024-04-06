@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   return (
     <>
-      <div className="w-[100vw] h-[80vh] flex gap-[8rem] bg-[#465e79] px-[5rem] items-center xs:max-md:hidden">
+      <div className="w-[100vw] h-[80vh] flex gap-[8rem] bg-[#101821] px-[5rem] items-center xs:max-md:hidden">
         <div className="flex flex-col gap-3 w-[35vw] mt-[6rem]">
           <h1 className="text-[35px] font-semibold text-white">ABOUT PAPEL</h1>
           <p className="text-[18px] text-[#d6d6d6]">
