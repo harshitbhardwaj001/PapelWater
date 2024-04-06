@@ -4,6 +4,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Hamburger from "hamburger-react";
 import { FaCartShopping } from "react-icons/fa6";
+import Cart from "./Cart";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -50,12 +51,9 @@ const Navbar = () => {
           </div>
           <div className="corner-right flex gap-[3.5rem] items-center ml-[-2rem] xs:max-xl:hidden">
             <Hamburger toggled={isOpen} toggle={setOpen} />
-            <FaCartShopping size={28} className="" />
+            {/* <FaCartShopping size={28} className="" /> */}
+            <Cart />
           </div>
-        </div>
-        <div className="corner-right flex gap-[2rem] items-center xl:hidden">
-          <Hamburger toggled={isOpen} toggle={setOpen} size={20} />
-          <FaCartShopping size={20} className="" />
         </div>
       </div>
       {/* Mobile Navbar */}
@@ -68,7 +66,8 @@ const Navbar = () => {
           height={80}
           className="h-[36px]"
         />
-        <FaCartShopping size={24} className="" />
+        {/* <FaCartShopping size={24} className="" /> */}
+        <Cart/>
       </div>
     </>
   );
