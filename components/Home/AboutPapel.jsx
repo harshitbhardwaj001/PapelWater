@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutPapel = () => {
   return (
-    <div className="w-[100vw] h-[150vh] flex flex-col justify-center items-center pt-[50vh] relative">
+    <div className="w-[100vw] h-[150vh] flex flex-col justify-center items-center pt-[0vh] relative">
       <div className="flex flex-col gap-[1rem] justify-center items-center">
         <h1 className="text-[60px] font-black xs:max-md:text-[45px] text-center font-gilroybold leading-[4rem]">
           ABOUT PRODUCT
@@ -26,7 +26,7 @@ const AboutPapel = () => {
           alt="product"
           width={700}
           height={500}
-          className="absolute top-[45%] left-[25.5%]"
+          className="absolute top-[28.5%] left-[25.5%]"
         />
       </div>
     </div>
