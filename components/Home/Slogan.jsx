@@ -3,13 +3,13 @@ import React from "react";
 
 const Slogan = () => {
   return (
-    <div className="w-[100vw] h-[120vh] bg-[#97D4E3] flex gap-[8rem] px-[8rem] pt-[12rem] xs:max-md:px-[2rem] xs:max-md:pt-[5vh] justify-center xs:max-md:flex-col xs:max-md:gap-[1.5rem] xs:max-md:items-center xs:max-md:justify-start xs:max-md:h-[100vh]">
+    <div className="w-[100vw] h-[120vh] flex px-[8rem] pt-[12rem] xs:max-md:px-[2rem] xs:max-md:pt-[5vh] justify-center xs:max-md:flex-col xs:max-md:gap-[1.5rem] xs:max-md:items-center xs:max-md:justify-start xs:max-md:h-[100vh]">
       <div className="flex flex-col gap-[1rem]">
         <h1 className="text-[70px] font-extrabold leading-[5rem] xs:max-md:text-[30px] xs:max-md:text-center xs:max-md:leading-[2rem]">
           DRINK <br className="xs:max-md:hidden" />
           THE <br /> CHANGE
         </h1>
-        <p className="text-[22px] text-[#1B3C87] xs:max-md:text-[16px] xs:max-md:text-center">
+        <p className="text-[22px] text-[#1B3C87] xs:max-md:text-[16px] xs:max-md:text-center font-gilroymedium w-[40vw]">
           You say you love the planet. <br className="xs:max-md:hidden" /> And
           if you truly do, <br className="xs:max-md:hidden" /> you must&apos;ve
           felt that guilt while grabbing a plastic{" "}
@@ -34,13 +34,13 @@ const Slogan = () => {
           Drink The Change
         </h1>
       </div>
-      <div className="w-[35vw] h-[95vh] rounded-[3rem] shadow-lg bg-[#fff] xs:max-md:w-[75vw] xs:max-md:h-[40vh] xs:max-md:rounded-none">
+      <div className="w-[35vw h-[95vh] overflow-hidden flex items-center justify-start relative left-[-8%]">
         <Image
-          src="/slogan.jpg"
+          src="/sloganBottle.png"
           alt="slogan"
           width={500}
-          height={500}
-          className="w-[35vw] h-[95vh] xs:max-md:w-[75vw] xs:max-md:h-[40vh] rounded-[3rem] shadow-lg xs:max-md:rounded-none"
+          height={300}
+          className="w-[10000px] xs:max-md:w-[75vw] xs:max-md:h-[40vh] xs:max-md:rounded-none rotate-[-15deg] ml-[5rem]"
         />
       </div>
     </div>

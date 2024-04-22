@@ -1,18 +1,39 @@
 "use client";
 
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Hamburger from "hamburger-react";
 import { FaCartShopping } from "react-icons/fa6";
 import Cart from "./Cart";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
+  const [showBackground, setShowBackground] = useState(false);
+  const TOP_OFFSET = 50;
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >= TOP_OFFSET) {
+        setShowBackground(true);
+      } else {
+        setShowBackground(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
       {/* Desktop Navbar */}
-      <div className="flex gap-12 justify-center mr-[4rem] xs:max-md:hidden">
-        <div className="flex gap-[5rem] md:max-xl:gap-[2rem] h-[11vh] justify-center items-center bg-[#fff]">
+      <div
+        className={`flex gap-12 justify-center mr-[4rem] xs:max-md:hidden fixed w-full ${
+          showBackground ? "bg-[white]" : "bg-none"
+        } z-[10]`}
+      >
+        <div className="flex gap-[5rem] md:max-xl:gap-[2rem] h-[11vh] justify-center items-center">
           <div className="nav-left">
             <nav className="xs:max-md:hidden">
               <ul className="flex gap-20 text-[18px] md:max-xl:text-[14px] md:max-xl:gap-12 font-medium ml-[2rem]">
@@ -67,7 +88,7 @@ const Navbar = () => {
           className="h-[36px]"
         />
         {/* <FaCartShopping size={24} className="" /> */}
-        <Cart/>
+        <Cart />
       </div>
     </>
   );

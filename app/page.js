@@ -1,4 +1,5 @@
 import About from "@/components/Home/About";
+import AboutPapel from "@/components/Home/AboutPapel";
 import HeroBanner from "@/components/Home/HeroBanner";
 import Products from "@/components/Home/Products";
 import Slogan from "@/components/Home/Slogan";
@@ -11,8 +12,9 @@ export default function Home() {
   return (
     <div>
       <HeroBanner />
-      <Videos />
       <Products />
+      <Videos />
+      {/* <AboutPapel /> */}
       <Slogan />
       <About />
       <Testimonial />

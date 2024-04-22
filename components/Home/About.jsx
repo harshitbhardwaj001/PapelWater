@@ -3,54 +3,70 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="w-[100vw] h-[130vh] bg-[#97D4E3] flex gap-[8rem] px-[8rem] pt-[12rem] justify-center xs:max-md:px-[2rem] xs:max-md:pt-[7vh] xs:max-md:flex-col xs:max-md:gap-[1.5rem] xs:max-md:items-center xs:max-md:justify-start xs:max-md:h-[112vh]">
-      <div className="w-[35vw] h-[75vh] rounded-[3rem] shadow-lg bg-[#fff] xs:max-md:hidden overflow-hidden">
+    <div className="relative w-[100vw] h-[130vh]  flex gap-[8rem] px-[8rem] pt-[12rem] justify-center xs:max-md:px-[2rem] xs:max-md:pt-[7vh] xs:max-md:flex-col xs:max-md:gap-[1.5rem] xs:max-md:items-center xs:max-md:justify-start xs:max-md:h-[112vh] items-center">
+      <div className="w-[30vw] h-[90vh] rounded-[3rem] shadow-lg bg-[#fff] xs:max-md:hidden overflow-hidden">
         <Image
-          src="/about.jpg"
+          src="/9.png"
           alt="about"
           width={500}
           height={500}
-          className="w-[55vw] h-[76vh] xs:max-md:w-[75vw] xs:max-md:h-[40vh]"
+          className="w-[30vw] h-[95vh] xs:max-md:w-[75vw] xs:max-md:h-[40vh]"
         />
       </div>
-      <div className="flex flex-col gap-[1rem]">
+      <div className="flex flex-col gap-[1rem] mt-[-5rem]">
         <h1 className="text-[70px] font-extrabold leading-[5rem] xs:max-md:text-[30px] xs:max-md:text-center">
           ABOUT US
         </h1>
-        <p className="text-[22px] text-[#1B3C87] xs:max-md:text-[16px] xs:max-md:text-center">
-          You say you love the planet. <br className="xs:max-md:hidden" /> And
-          if you truly do, <br className="xs:max-md:hidden" /> you must&apos;ve
-          felt that guilt while grabbing a plastic{" "}
-          <br className="xs:max-md:hidden" /> water bottle in your hands...{" "}
-          <br className="xs:max-md:hidden" /> We know the feeling...{" "}
-          <br className="xs:max-md:hidden" />
-          And that&apos;s why, we, at PAPEL believe that our{" "}
-          <br className="xs:max-md:hidden" />
-          hydration shouldn&apos;t hurt our home.{" "}
-          <br className="xs:max-md:hidden" /> Grab your eco-friendly hydration
-          products to give a <br className="xs:max-md:hidden" /> loving hug to
-          nature.
-        </p>
-        <p className="text-[25px] text-[#1B3C87] xs:max-md:text-[16px] xs:max-md:text-center">
-          With{" "}
-          <strong className="text-[32px] xs:max-md:text-[23px] italic">
+        <p className="text-[22px] text-[#1B3C87] xs:max-md:text-[16px] xs:max-md:text-center font-gilroymedium">
+          We started{" "}
+          <strong className="xs:max-md:text-[23px] font-gilroyboldx">
             PAPEL
+          </strong>{" "}
+          with one single goal: <br className="xs:max-md:hidden" />{" "}
+          <strong className="text-[24px] xs:max-md:text-[23px] font-gilroyboldx ">
+            To make India's most eco-friendly
           </strong>
-          , here&apos;s your chance to
+          <br className="xs:max-md:hidden" />{" "}
+          <strong className="xs:max-md:text-[23px] font-gilroyboldx">
+            functional beverage.
+          </strong>
+          <br className="xs:max-md:hidden" /> Enriched with vitamins & minerals,
+          this is
+          <br className="xs:max-md:hidden" />{" "}
+          <strong className="xs:max-md:text-[23px] font-gilroyboldx">
+            India's first paper-based Alkaline water,
+          </strong>
+          <br className="xs:max-md:hidden" />
+          which means
+          <br className="xs:max-md:hidden" />
+          <strong className="xs:max-md:text-[23px] font-gilroyboldx">
+            you can't see the water, but you'll feel the change...
+          </strong>
+          <br className="xs:max-md:hidden" /> That's how we've crafted PAPEL for
+          you...
+          <br className="xs:max-md:hidden" /> So you get nothing less than
+          <br className="xs:max-md:hidden" />
+          <strong className="xs:max-md:text-[23px] font-gilroyboldx">
+            a refreshing, crisp sipeach time.
+          </strong>
         </p>
-        <h1 className="text-[35px] text-[#1B3C87] font-bold italic xs:max-md:text-[23px] xs:max-md:text-center">
-          Drink The Change
-        </h1>
       </div>
       <div className="w-[35vw] h-[95vh] rounded-[3rem] shadow-lg bg-[#fff] md:hidden xs:max-md:w-[75vw] xs:max-md:h-[40vh] xs:max-md:rounded-none">
         <Image
-          src="/about.jpg"
+          src="/9.png"
           alt="about"
           width={500}
           height={500}
           className="w-[35vw] h-[95vh] xs:max-md:w-[75vw] xs:max-md:h-[40vh]"
         />
       </div>
+      <Image
+        src="/Asset_5.png"
+        alt="about"
+        width={400}
+        height={500}
+        className="absolute top-[84%] left-[31%]"
+      />
     </div>
   );
 };
