@@ -14,7 +14,7 @@ export default function Home() {
       <HeroBanner />
       <Products />
       <Videos />
-      {/* <AboutPapel /> */}
+      <AboutPapel />
       <Slogan />
       <About />
       <Testimonial />

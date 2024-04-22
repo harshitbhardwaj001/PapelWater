@@ -3,7 +3,7 @@ import React from "react";
 
 const Slogan = () => {
   return (
-    <div className="w-[100vw] h-[120vh] flex px-[8rem] pt-[12rem] xs:max-md:px-[2rem] xs:max-md:pt-[5vh] justify-center xs:max-md:flex-col xs:max-md:gap-[1.5rem] xs:max-md:items-center xs:max-md:justify-start xs:max-md:h-[100vh]">
+    <div className="w-[100vw] h-[120vh] flex px-[8rem] pt-[12rem] xs:max-md:px-[2rem] xs:max-md:pt-[5vh] justify-center xs:max-md:flex-col xs:max-md:gap-[1.5rem] xs:max-md:items-center xs:max-md:justify-start xs:max-md:h-[100vh] items-center">
       <div className="flex flex-col gap-[1rem]">
         <h1 className="text-[70px] font-extrabold leading-[5rem] xs:max-md:text-[30px] xs:max-md:text-center xs:max-md:leading-[2rem]">
           DRINK <br className="xs:max-md:hidden" />
@@ -34,13 +34,13 @@ const Slogan = () => {
           Drink The Change
         </h1>
       </div>
-      <div className="w-[35vw h-[95vh] overflow-hidden flex items-center justify-start relative left-[-8%]">
+      <div className="w-[35vw h-[95vh] overflow-hidden flex items-center justify-start ">
         <Image
-          src="/sloganBottle.png"
+          src="/slogan.jpg"
           alt="slogan"
           width={500}
           height={300}
-          className="w-[10000px] xs:max-md:w-[75vw] xs:max-md:h-[40vh] xs:max-md:rounded-none rotate-[-15deg] ml-[5rem]"
+          className="w-[30vw] xs:max-md:w-[75vw] xs:max-md:h-[40vh] xs:max-md:rounded-none rotate-[-15deg]"
         />
       </div>
     </div>
