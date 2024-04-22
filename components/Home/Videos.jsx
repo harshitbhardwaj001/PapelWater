@@ -14,7 +14,7 @@ const Videos = () => {
         />
       </div>
       <h1 className="text-[60px] font-black xs:max-md:text-[45px] text-center font-gilroybold leading-[4rem]">
-        WE GOT THE'GRAM TALKING <br /> ABOUT PAPEL...
+        WE GOT THE &apos;GRAM TALKING <br /> ABOUT PAPEL...
       </h1>
       {/* <p className="text-[22px] text-[#1B3C87] font-medium mt-[-3.7rem] xs:max-md:text-[13px] xs:max-md:mt-[-3rem] xs:max-md:text-center xs:max-md:px-[1rem] xs:max-md:leading-[2.5vh]">
         Here you can see small videos we made with influencers

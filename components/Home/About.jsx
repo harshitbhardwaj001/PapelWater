@@ -24,7 +24,7 @@ const About = () => {
           </strong>{" "}
           with one single goal: <br className="xs:max-md:hidden" />{" "}
           <strong className="text-[24px] xs:max-md:text-[23px] font-gilroyboldx ">
-            To make India's most eco-friendly
+            To make India&apos;s most eco-friendly
           </strong>
           <br className="xs:max-md:hidden" />{" "}
           <strong className="xs:max-md:text-[23px] font-gilroyboldx">
@@ -34,16 +34,16 @@ const About = () => {
           this is
           <br className="xs:max-md:hidden" />{" "}
           <strong className="xs:max-md:text-[23px] font-gilroyboldx">
-            India's first paper-based Alkaline water,
+            India&apos;s first paper-based Alkaline water,
           </strong>
           <br className="xs:max-md:hidden" />
           which means
           <br className="xs:max-md:hidden" />
           <strong className="xs:max-md:text-[23px] font-gilroyboldx">
-            you can't see the water, but you'll feel the change...
+            you can&apos;t see the water, but you&apos;ll feel the change...
           </strong>
-          <br className="xs:max-md:hidden" /> That's how we've crafted PAPEL for
-          you...
+          <br className="xs:max-md:hidden" /> That&apos;s how we&apos;ve crafted
+          PAPEL for you...
           <br className="xs:max-md:hidden" /> So you get nothing less than
           <br className="xs:max-md:hidden" />
           <strong className="xs:max-md:text-[23px] font-gilroyboldx">
