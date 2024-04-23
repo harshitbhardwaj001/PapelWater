@@ -3,7 +3,7 @@ import React from "react";
 
 const Subscription = () => {
   return (
-    <div className="w-[100vw] h-[100vh] flex justify-center items-center xs:max-md:px-[2rem] xs:max-md:overflow-hidden xs:max-md:justify-end xs:max-md:h-[90vh]">
+    <div className="w-[100vw] h-[100vh] flex justify-center items-center xs:max-md:px-[2rem] xs:max-md:overflow-hidden xs:max-md:justify-end xs:max-md:h-[70vh] xs:max-md:mt-[-3rem]">
       <div className="flex flex-col gap-5 w-[40vw] mt-[-1.5rem] xs:max-md:w-full">
         <div>
           <Image

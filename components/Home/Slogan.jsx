@@ -3,7 +3,7 @@ import React from "react";
 
 const Slogan = () => {
   return (
-    <div className="w-[100vw] h-[100vh] flex px-[8rem] xs:max-md:px-[2rem] justify-center xs:max-md:flex-col xs:max-md:gap-[1.5rem] xs:max-md:items-center xs:max-md:justify-start xs:max-md:h-[120vh] items-center">
+    <div className="w-[100vw] h-[100vh] flex px-[8rem] xs:max-md:px-[2rem] justify-center xs:max-md:flex-col xs:max-md:gap-[1.5rem] xs:max-md:items-center xs:max-md:justify-start xs:max-md:auto xs:max-md:mt-[3rem] items-center">
       <div className="flex flex-col gap-[1rem]">
         <h1 className="text-[70px] font-extrabold leading-[5rem] xs:max-md:text-[30px] xs:max-md:text-center xs:max-md:leading-[2rem]">
           DRINK <br className="xs:max-md:hidden" />

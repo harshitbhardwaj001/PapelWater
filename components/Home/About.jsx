@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="relative w-[100vw] h-[110vh]  flex gap-[8rem] px-[8rem] pt-[12rem] justify-center xs:max-md:px-[2rem] xs:max-md:pt-0 xs:max-md:flex-col xs:max-md:gap-[1.5rem] xs:max-md:items-center xs:max-md:justify-center xs:max-md:h-[135vh] items-center overflow-x-hidden">
+    <div className="relative w-[100vw] h-[110vh] flex gap-[8rem] px-[8rem] pt-[12rem] justify-center xs:max-md:px-[2rem] xs:max-md:pt-0 xs:max-md:flex-col xs:max-md:gap-[1.5rem] xs:max-md:items-center xs:max-md:justify-center xs:max-md:h-[120vh] items-center overflow-x-hidden">
       <div className="w-[30vw] h-[90vh] rounded-[3rem] shadow-lg bg-[#fff] xs:max-md:hidden overflow-hidden">
         <Image
           src="/9.png"
@@ -14,7 +14,7 @@ const About = () => {
         />
       </div>
       <div className="flex flex-col gap-[1rem] mt-[-5rem]">
-        <h1 className="text-[70px] font-extrabold leading-[5rem] xs:max-md:text-[30px] xs:max-md:text-center">
+        <h1 className="text-[70px] text-black font-extrabold leading-[5rem] xs:max-md:text-[30px] xs:max-md:text-center">
           ABOUT US
         </h1>
         <p className="text-[22px] text-[#1B3C87] xs:max-md:text-[16px] xs:max-md:text-center font-gilroymedium">

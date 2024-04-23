@@ -3,8 +3,8 @@ import React from "react";
 
 const Videos = () => {
   return (
-    <div className="relative w-[100vw] h-[100vh] flex flex-col items-center justify-center gap-10 xs:max-md:h-[90vh]">
-      <div className="absolute top-[60%] h-[670vh] w-[100vw] z-[-1] xs:max-md:top-[65%] xs:max-md:h-[600vh] overflow-hidden">
+    <div className="relative w-[100vw] h-[100vh] flex flex-col items-center justify-center gap-10 xs:max-md:h-auto xs:max-md:mt-[3rem]">
+      <div className="absolute top-[60%] h-[670vh] w-[100vw] z-[-1] xs:max-md:top-[65%] xs:max-md:h-[500vh] overflow-hidden">
         <Image
           src="/Asset_3.png"
           alt="bg"
