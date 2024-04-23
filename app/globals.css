@@ -23,6 +23,10 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "Gilroy-ExtraBold";
   src: url("/Font/Gilroy-ExtraBold.ttf") format("truetype");
