@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import Hamburger from "hamburger-react";
 import { FaCartShopping } from "react-icons/fa6";
 import Cart from "./Cart";
+import MobileNav from "./MobileNav";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -83,7 +84,7 @@ const Navbar = () => {
           showBackground ? "bg-[white]" : "bg-none"
         } z-[10]`}
       >
-        <Hamburger toggled={isOpen} toggle={setOpen} size={20} />
+        <MobileNav />
         <Image
           src="/papel-logo-black.png"
           alt="logo"
