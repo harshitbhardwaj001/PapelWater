@@ -3,17 +3,17 @@ import React from "react";
 
 const Videos = () => {
   return (
-    <div className="relative w-[100vw] h-[120vh] flex flex-col pt-[8vh] items-center gap-10 xs:max-md:pt-[5vh] xs:max-md:h-[100vh]">
-      <div className="absolute top-[60%] h-[670vh] w-[100vw] z-[-1] xs:max-md:top-[45%] xs:max-md:h-[140vh] overflow-hidden">
+    <div className="relative w-[100vw] h-[100vh] flex flex-col items-center justify-center gap-10 xs:max-md:h-[90vh]">
+      <div className="absolute top-[60%] h-[670vh] w-[100vw] z-[-1] xs:max-md:top-[65%] xs:max-md:h-[600vh] overflow-hidden">
         <Image
           src="/Asset_3.png"
           alt="bg"
           width={1519}
           height={1000}
-          className="w-[100vw]"
+          className="w-[100vw] xs:max-md:w-full xs:max-md:h-full"
         />
       </div>
-      <h1 className="text-[60px] font-black xs:max-md:text-[45px] text-center font-gilroybold leading-[4rem]">
+      <h1 className="text-[60px] font-black xs:max-md:text-[26px] text-center font-gilroybold xs:max-md:leading-[2rem] leading-[4rem]">
         WE GOT THE &apos;GRAM TALKING <br /> ABOUT PAPEL...
       </h1>
       {/* <p className="text-[22px] text-[#1B3C87] font-medium mt-[-3.7rem] xs:max-md:text-[13px] xs:max-md:mt-[-3rem] xs:max-md:text-center xs:max-md:px-[1rem] xs:max-md:leading-[2.5vh]">

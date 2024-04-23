@@ -36,7 +36,7 @@ const Products = () => {
   const { toast } = useToast();
 
   return (
-    <div className="xs:max-md:relative w-[100vw] h-[110vh] xs:max-md:h-[225vh] flex flex-col pt-[3rem] items-center gap-10 xs:max-md:pt-[5vh] lg:my-[5rem]">
+    <div className="xs:max-md:relative w-[100vw] h-[110vh] xs:max-md:h-[245vh] flex flex-col justify-center items-center gap-10 lg:my-[5rem]">
       <h1 className="text-[60px] font-extrabold xs:max-md:text-[45px]">
         PRODUCTS
       </h1>

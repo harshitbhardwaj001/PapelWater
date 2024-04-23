@@ -3,13 +3,13 @@ import React from "react";
 
 const Slogan = () => {
   return (
-    <div className="w-[100vw] h-[120vh] flex px-[8rem] pt-[12rem] xs:max-md:px-[2rem] xs:max-md:pt-[5vh] justify-center xs:max-md:flex-col xs:max-md:gap-[1.5rem] xs:max-md:items-center xs:max-md:justify-start xs:max-md:h-[100vh] items-center">
+    <div className="w-[100vw] h-[100vh] flex px-[8rem] xs:max-md:px-[2rem] justify-center xs:max-md:flex-col xs:max-md:gap-[1.5rem] xs:max-md:items-center xs:max-md:justify-start xs:max-md:h-[120vh] items-center">
       <div className="flex flex-col gap-[1rem]">
         <h1 className="text-[70px] font-extrabold leading-[5rem] xs:max-md:text-[30px] xs:max-md:text-center xs:max-md:leading-[2rem]">
           DRINK <br className="xs:max-md:hidden" />
           THE <br /> CHANGE
         </h1>
-        <p className="text-[22px] text-[#1B3C87] xs:max-md:text-[16px] xs:max-md:text-center font-gilroymedium w-[40vw]">
+        <p className="text-[22px] text-[#1B3C87] xs:max-md:text-[16px] xs:max-md:text-center font-gilroymedium w-[40vw] xs:max-md:w-auto">
           You say you love the planet. <br className="xs:max-md:hidden" /> And
           if you truly do, <br className="xs:max-md:hidden" /> you must&apos;ve
           felt that guilt while grabbing a plastic{" "}

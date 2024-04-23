@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="relative w-[100vw] h-[130vh]  flex gap-[8rem] px-[8rem] pt-[12rem] justify-center xs:max-md:px-[2rem] xs:max-md:pt-[7vh] xs:max-md:flex-col xs:max-md:gap-[1.5rem] xs:max-md:items-center xs:max-md:justify-start xs:max-md:h-[112vh] items-center">
+    <div className="relative w-[100vw] h-[110vh]  flex gap-[8rem] px-[8rem] pt-[12rem] justify-center xs:max-md:px-[2rem] xs:max-md:pt-0 xs:max-md:flex-col xs:max-md:gap-[1.5rem] xs:max-md:items-center xs:max-md:justify-center xs:max-md:h-[135vh] items-center overflow-x-hidden">
       <div className="w-[30vw] h-[90vh] rounded-[3rem] shadow-lg bg-[#fff] xs:max-md:hidden overflow-hidden">
         <Image
           src="/9.png"
@@ -51,13 +51,13 @@ const About = () => {
           </strong>
         </p>
       </div>
-      <div className="w-[35vw] h-[95vh] rounded-[3rem] shadow-lg bg-[#fff] md:hidden xs:max-md:w-[75vw] xs:max-md:h-[40vh] xs:max-md:rounded-none">
+      <div className="w-[35vw] h-[95vh] rounded-[3rem] shadow-lg bg-[#fff] md:hidden xs:max-md:w-[65vw] xs:max-md:h-[50vh] xs:max-md:rounded-none">
         <Image
           src="/9.png"
           alt="about"
           width={500}
           height={500}
-          className="w-[35vw] h-[95vh] xs:max-md:w-[75vw] xs:max-md:h-[40vh]"
+          className="w-[35vw] h-[95vh] xs:max-md:w-[65vw] xs:max-md:h-[50vh]"
         />
       </div>
       <Image
@@ -65,7 +65,7 @@ const About = () => {
         alt="about"
         width={400}
         height={500}
-        className="absolute top-[84%] left-[31%]"
+        className="absolute top-[84%] left-[31%] xs:max-md:w-[250px] xs:max-md:left-[51%]"
       />
     </div>
   );
