@@ -19,36 +19,36 @@ const About = () => {
         </h1>
         <p className="text-[22px] text-[#1B3C87] xs:max-md:text-[16px] xs:max-md:text-center font-gilroymedium">
           We started{" "}
-          <strong className="xs:max-md:text-[23px] font-gilroyboldx xs:max-md:font-gilroybold">
+          <span className="xs:max-md:text-[23px] font-gilroyboldx xs:max-md:font-gilroybold">
             PAPEL
-          </strong>{" "}
+          </span>{" "}
           with one single goal: <br className="xs:max-md:hidden" />{" "}
-          <strong className="text-[24px] xs:max-md:text-[23px] font-gilroyboldx xs:max-md:font-gilroybold">
+          <span className="text-[24px] xs:max-md:text-[23px] font-gilroyboldx xs:max-md:font-gilroybold">
             To make India&apos;s most eco-friendly
-          </strong>
+          </span>
           <br className="xs:max-md:hidden" />{" "}
-          <strong className="xs:max-md:text-[23px] font-gilroyboldx xs:max-md:font-gilroybold">
+          <span className="xs:max-md:text-[23px] font-gilroyboldx xs:max-md:font-gilroybold">
             functional beverage.
-          </strong>
+          </span>
           <br className="xs:max-md:hidden" /> Enriched with vitamins & minerals,
           this is
           <br className="xs:max-md:hidden" />{" "}
-          <strong className="xs:max-md:text-[23px] font-gilroyboldx">
+          <span className="xs:max-md:text-[23px] font-gilroyboldx">
             India&apos;s first paper-based Alkaline water,
-          </strong>
+          </span>
           <br className="xs:max-md:hidden" />
           which means
           <br className="xs:max-md:hidden" />
-          <strong className="xs:max-md:text-[23px] font-gilroyboldx xs:max-md:font-gilroybold">
+          <span className="xs:max-md:text-[23px] font-gilroyboldx xs:max-md:font-gilroybold">
             you can&apos;t see the water, but you&apos;ll feel the change...
-          </strong>
+          </span>
           <br className="xs:max-md:hidden" /> That&apos;s how we&apos;ve crafted
           PAPEL for you...
           <br className="xs:max-md:hidden" /> So you get nothing less than
           <br className="xs:max-md:hidden" />
-          <strong className="xs:max-md:text-[23px] font-gilroyboldx xs:max-md:font-gilroybold">
+          <span className="xs:max-md:text-[23px] font-gilroyboldx xs:max-md:font-gilroybold">
             a refreshing, crisp sipeach time.
-          </strong>
+          </span>
         </p>
       </div>
       <div className="w-[35vw] h-[95vh] rounded-[3rem] shadow-lg bg-[#fff] md:hidden xs:max-md:w-[65vw] xs:max-md:h-[50vh] xs:max-md:rounded-none">

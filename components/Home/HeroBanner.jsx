@@ -14,7 +14,7 @@ const HeroBanner = () => {
           className="w-[88%] pt-[2rem]"
         />
       </div>
-      <div className="w-[100vw] h-[89vh] bg-[#fff] flex justify-center px-[4rem] mx-auto md:max-xl:px-[6rem] ml-[2rem] xs:max-md:flex-col xs:max-md:px-[0.8rem] xs:max-md:ml-0 xs:max-md:items-center xs:max-md:justify-start md:hidden">
+      <div className="w-[100vw] h-[89vh] bg-[#fff] flex justify-center px-[4rem] mx-auto md:max-xl:px-[6rem] ml-[2rem] xs:max-md:flex-col xs:max-md:px-[0.8rem] pt-[6rem] xs:max-md:ml-0 xs:max-md:items-center xs:max-md:justify-start md:hidden">
         <Image
           src="/wave-design-1.png"
           alt="wave"
