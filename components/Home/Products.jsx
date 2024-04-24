@@ -37,7 +37,7 @@ const Products = () => {
 
   return (
     <div
-      className="xs:max-md:relative w-[100vw] h-[110vh] xs:max-md:h-auto xs:max-md:mt-[10rem] flex flex-col justify-center items-center gap-10 lg:my-[5rem]"
+      className="xs:max-md:relative w-[100vw] h-auto xs:max-md:h-auto xs:max-md:mt-[10rem] flex flex-col justify-center items-center gap-10 lg:py-[3rem]"
       id="product"
     >
       <h1 className="text-[60px] font-extrabold xs:max-md:text-[45px]">

@@ -23,13 +23,15 @@ const Checkout = () => {
       <div className="flex gap-12 justify-center mr-[4rem] xs:max-md:hidden fixed w-full bg-[white] z-[10] ">
         <div className="flex gap-[5rem] md:max-xl:gap-[2rem] h-[11vh] justify-center items-center bg-[#fff] ">
           <div className="mb-3">
-            <Image
-              src="/papel-logo-black.png"
-              alt="logo"
-              width={160}
-              height={160}
-              className="md:max-xl:w-[130px] xs:max-md:w-[130px]"
-            />
+            <Link href="/">
+              <Image
+                src="/papel-logo-black.png"
+                alt="logo"
+                width={160}
+                height={160}
+                className="md:max-xl:w-[130px] xs:max-md:w-[130px]"
+              />
+            </Link>
           </div>
         </div>
       </div>

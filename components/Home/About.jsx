@@ -42,14 +42,17 @@ const About = () => {
           <span className="xs:max-md:text-[23px] font-gilroyboldx xs:max-md:font-gilroybold">
             you can&apos;t see the water, but you&apos;ll feel the change...
           </span>
-          <br className="xs:max-md:hidden" /> That&apos;s how we&apos;ve crafted
+          {/* <br className="xs:max-md:hidden" /> That&apos;s how we&apos;ve crafted
           PAPEL for you...
           <br className="xs:max-md:hidden" /> So you get nothing less than
           <br className="xs:max-md:hidden" />
           <span className="xs:max-md:text-[23px] font-gilroyboldx xs:max-md:font-gilroybold">
             a refreshing, crisp sipeach time.
-          </span>
+          </span> */}
         </p>
+        <button className="bg-[#1B3C87] w-[16rem] xs:max-md:text-[18px] xs:max-md:w-[12rem] py-[0.3rem] text-white text-[22px] font-gilroybold capitalize mt-[1rem]">
+          Click to dive deeper
+        </button>
       </div>
       <div className="w-[35vw] h-[95vh] rounded-[3rem] shadow-lg bg-[#fff] md:hidden xs:max-md:w-[65vw] xs:max-md:h-[50vh] xs:max-md:rounded-none">
         <Image
