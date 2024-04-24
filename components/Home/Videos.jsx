@@ -3,8 +3,8 @@ import React from "react";
 
 const Videos = () => {
   return (
-    <div className="relative w-[100vw] h-auto flex flex-col md:py-[8rem] items-center justify-center gap-10 xs:max-md:h-auto xs:max-md:mt-[3rem]">
-      <div className="absolute top-[60%] h-[380%] w-[100vw] z-[-1] xs:max-md:top-[65%] xs:max-md:h-[500vh] overflow-hidden">
+    <div className="w-full min-h-[120vh] flex flex-col md:py-[8rem] items-center justify-center gap-10 xs:max-md:h-auto xs:max-md:mt-[3rem] bg-[url('/about-product.png')] bg-contain bg-right-bottom bg-no-repeat">
+      {/* <div className="absolute top-[60%] h-[380%] w-[100vw] z-[-1] xs:max-md:top-[65%] xs:max-md:h-[500vh] overflow-hidden">
         <Image
           src="/Asset_3.png"
           alt="bg"
@@ -12,7 +12,7 @@ const Videos = () => {
           height={1000}
           className="w-[100vw] xs:max-md:w-full xs:max-md:h-full"
         />
-      </div>
+      </div> */}
       <h1 className="text-[60px] font-black xs:max-md:text-[26px] text-center font-gilroybold xs:max-md:leading-[2rem] leading-[4rem]">
         WE GOT THE &apos;GRAM TALKING <br /> ABOUT PAPEL...
       </h1>

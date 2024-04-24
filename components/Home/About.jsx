@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="relative w-[100vw] h-[115vh] flex gap-[8rem] px-[8rem] pt-[12rem] justify-center xs:max-md:px-[2rem] xs:max-md:pt-0 xs:max-md:flex-col xs:max-md:gap-[1.5rem] xs:max-md:items-center xs:max-md:justify-center xs:max-md:h-[130vh] items-center overflow-hidden">
+    <div className="relative w-[100vw] h-[120vh] flex gap-[8rem] px-[8rem] pt-[12rem] justify-center xs:max-md:px-[2rem] xs:max-md:pt-0 xs:max-md:flex-col xs:max-md:gap-[1.5rem] xs:max-md:items-center xs:max-md:justify-center xs:max-md:h-[130vh] items-center overflow-hidden bg-[url('/about-us.png')] bg-cover bg-no-repeat bg-top">
       <div className="w-[30vw] h-[90vh] rounded-[3rem] shadow-lg bg-[#fff] xs:max-md:hidden overflow-hidden">
         <Image
           src="/9.png"
