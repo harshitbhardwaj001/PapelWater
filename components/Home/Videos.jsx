@@ -8,7 +8,7 @@ const Videos = () => {
         <Image
           src="/Asset_3.png"
           alt="bg"
-          width={1519}
+          width={1519}x
           height={1000}
           className="w-[100vw] xs:max-md:w-full xs:max-md:h-full"
         />
