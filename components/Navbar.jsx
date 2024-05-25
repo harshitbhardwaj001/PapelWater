@@ -39,13 +39,13 @@ const Navbar = () => {
             <nav className="xs:max-md:hidden">
               <ul className="flex gap-20 text-[18px] md:max-xl:text-[14px] md:max-xl:gap-12 font-medium ml-[2rem]">
                 <li>
-                  <a href="#">About</a>
+                  <a href="/about">About</a>
                 </li>
                 <li>
                   <a href="#">Shop</a>
                 </li>
                 <li>
-                  <a href="#">Verify your Papel</a>
+                  <a href="/story">Our Story</a>
                 </li>
               </ul>
             </nav>
